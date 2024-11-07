@@ -1,0 +1,19 @@
+>>> ipwgml:
+	https://ipwgml.readthedocs.io/en/latest/intro.html
+
+>>> used "PyCharm", vscode configs did not support data access in .nc files
+
+>>>configs:
+	Python 			      3.12.4
+	h5py   			      3.12.1
+	ipwgml                        0.1
+	keras                         3.6.0
+	netCDF4                       1.7.2
+	numpy                         1.26.4
+	pandas                        2.2.2
+	scikit-learn                  1.5.2
+	scipy                         1.14.1
+	seaborn                       0.13.2
+	tensorflow                    2.18.0
+	torch                         2.4.0
+	xarray                        2024.7.0
