@@ -36,7 +36,7 @@ To use this repository, clone it and ensure you have all required dependencies i
 
 - Python 3.8+
 - TensorFlow or PyTorch (based on the framework used in `main.py`)
-- Additional libraries as per the requirements file
+- Additional libraries as per in the requirements file
 
 ### Installation
 
@@ -63,7 +63,3 @@ Make sure to adjust any parameters as needed within the `main.py` script to suit
 ## Results
 
 The model performance, along with analysis and results, will be updated after the training process. Future plans include fine-tuning the model and experimenting with additional remote sensing features to improve predictive accuracy.
-
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
