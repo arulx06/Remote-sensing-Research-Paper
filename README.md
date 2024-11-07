@@ -58,10 +58,15 @@ To download the required datasets for this project, use the following `ipwgml` c
 ```bash
 ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,validation,testing --geometries gridded --format spatial
 ```
---sensors: Specify sensors to download (e.g., gmi).
---splits: Specify data splits (e.g., training, validation, testing, evaluation).
---geometries: Specify data geometries (e.g., gridded or on_swath).
---formats: Specify data formats (e.g., spatial for 2D scenes, tabular for table data).
+--sensors A comma-separated lists of the sensors for which to download the data.
+
+--splits A comma-separated lists of the data splits to download. Available options are training, validation, testing, and evaluation.
+
+--geometries A comma-separated lists of the data geometries. Available options are gridded for gridded observations and on_swath for the data on the PMW swath.
+
+--inputs A comma-separated list of the input data to download. Available options are ancillary, geo, geo_ir and pmw.
+
+--formats A comma-separated list of the data formats to download. Available options are spatial for 2D training scenes and tabular for tabular data.
 
 ### Directory structure
 
