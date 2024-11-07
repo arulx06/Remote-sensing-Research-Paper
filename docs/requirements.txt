@@ -17,3 +17,18 @@
 	tensorflow                    2.18.0
 	torch                         2.4.0
 	xarray                        2024.7.0
+
+>>>dataset:
+	ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,validation,testing --geometries gridded --format spatial
+
+This will download the gridded SPR training, validation, and testing data. The ipwgml download command takes the following options:
+
+--sensors A comma-separated lists of the sensors for which to download the data.
+
+--splits A comma-separated lists of the data splits to download. Available options are training, validation, testing, and evaluation.
+
+--geometries A comma-separated lists of the data geometries. Available options are gridded for gridded observations and on_swath for the data on the PMW swath.
+
+--inputs A comma-separated list of the input data to download. Available options are ancillary, geo, geo_ir and pmw.
+
+--formats A comma-separated list of the data formats to download. Available options are spatial for 2D training scenes and tabular for tabular data.
