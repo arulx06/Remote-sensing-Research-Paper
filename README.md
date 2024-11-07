@@ -51,8 +51,17 @@ To use this repository, clone it and ensure you have all required dependencies i
    pip install -r requirements.txt
    ```
 
-### Directory structure
+3. Dataset Download
+
+To download the required datasets for this project, use the following `ipwgml` command:
+
+```bash
+ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,validation,testing --geometries gridded --format spatial
 ```
+
+### Directory structure
+
+```bash
 Remote-sensing-Research-paper/
 ├── docs/
 │   ├── requirements.txt
