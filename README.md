@@ -68,7 +68,7 @@ ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,
 
 --formats A comma-separated list of the data formats to download. Available options are spatial for 2D training scenes and tabular for tabular data.
 
-### Directory structure
+## Directory structure
 
 ```bash
 Remote-sensing-Research-paper/
