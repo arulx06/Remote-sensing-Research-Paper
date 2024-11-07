@@ -58,13 +58,16 @@ To download the required datasets for this project, use the following `ipwgml` c
 ```bash
 ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,validation,testing --geometries gridded --format spatial
 ```
+--sensors: Specify sensors to download (e.g., gmi).
+--splits: Specify data splits (e.g., training, validation, testing, evaluation).
+--geometries: Specify data geometries (e.g., gridded or on_swath).
+--formats: Specify data formats (e.g., spatial for 2D scenes, tabular for table data).
 
 ### Directory structure
 
 ```bash
 Remote-sensing-Research-paper/
 ├── docs/
-│   ├── requirements.txt
 |   ├──Literature-survey.xlsx
 |   └──Presentation.pptx
 ├── papers/
@@ -75,9 +78,9 @@ Remote-sensing-Research-paper/
 ├── src/
 │   ├── Model/
 |   ├──Preprocessing/
-|   └──Training/
-└── README.md
-
+|   └──Training/y
+├── README.md
+└── requirements.txt
 ```
 ## Results
 
