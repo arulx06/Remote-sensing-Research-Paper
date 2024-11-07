@@ -54,16 +54,20 @@ To use this repository, clone it and ensure you have all required dependencies i
 ### Directory structure
 ```
 Remote-sensing-Research-paper/
+├── docs/
+│   ├── requirements.txt
+|   ├──Literature-survey.xlsx
+|   └──Presentation.pptx
+├── papers/
+├── results/
+│   ├── figures/
+|   |     └──xxx.jpg
+|   └──metrics/
 ├── src/
-│   └── main.py
-├── data/
-│   └── precipitation_dataset.csv
-├── models/
-│   └── cnn_model.h5
-├── notebooks/
-│   └── data_analysis.ipynb
-├── README.md
-└── requirements.txt
+│   ├── Model/
+|   ├──Preprocessing/
+|   └──Training/
+└── README.md
 
 ```
 ## Results
