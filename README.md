@@ -51,15 +51,21 @@ To use this repository, clone it and ensure you have all required dependencies i
    pip install -r requirements.txt
    ```
 
-### Usage
-
-Run the `main.py` file to start the training process:
-```bash
-python main.py
+### Directory structure
 ```
+Remote-sensing-Research-paper/
+├── src/
+│   └── main.py
+├── data/
+│   └── precipitation_dataset.csv
+├── models/
+│   └── cnn_model.h5
+├── notebooks/
+│   └── data_analysis.ipynb
+├── README.md
+└── requirements.txt
 
-Make sure to adjust any parameters as needed within the `main.py` script to suit different data configurations or model settings.
-
+```
 ## Results
 
 The model performance, along with analysis and results, will be updated after the training process. Future plans include fine-tuning the model and experimenting with additional remote sensing features to improve predictive accuracy.
