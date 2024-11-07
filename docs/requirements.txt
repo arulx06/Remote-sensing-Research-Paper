@@ -3,7 +3,7 @@
 
 >>> used "PyCharm", vscode configs did not support data access in .nc files
 
->>>configs:
+>>> configs:
 	Python 			      3.12.4
 	h5py   			      3.12.1
 	ipwgml                        0.1
@@ -18,10 +18,10 @@
 	torch                         2.4.0
 	xarray                        2024.7.0
 
->>>dataset:
+>>> dataset:
 	ipwgml download --data_path /path/to/store/data --sensors gmi --splits training,validation,testing --geometries gridded --format spatial
 
-This will download the gridded SPR training, validation, and testing data. The ipwgml download command takes the following options:
+>>This will download the gridded SPR training, validation, and testing data. The ipwgml download command takes the following options:
 
 --sensors A comma-separated lists of the sensors for which to download the data.
 
