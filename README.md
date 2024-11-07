@@ -83,7 +83,7 @@ Remote-sensing-Research-paper/
 ├── src/
 │   ├── Model/
 |   ├──Preprocessing/
-|   └──Training/y
+|   └──Training/
 ├── README.md
 └── requirements.txt
 ```
